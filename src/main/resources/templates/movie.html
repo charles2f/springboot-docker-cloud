@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+</head>
+<body>
+    <h1>Movie Details</h1>
+    <div>
+        <p><strong>Title:</strong> <span th:text="${movie.title}"></span></p>
+        <p><strong>Year:</strong> <span th:text="${movie.year}"></span></p>
+        <p><strong>Director:</strong> <span th:text="${movie.director}"></span></p>
+        <p><strong>Plot:</strong> <span th:text="${movie.plot}"></span></p>
+    </div>
+</body>
+</html>
